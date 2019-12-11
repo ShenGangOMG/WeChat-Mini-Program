@@ -1,0 +1,19 @@
+<!-- 轮播图 -->
+<view class="slider-wrapper">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular>
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item class="swiper-item">
+        <image src="{{item}}" data-id="{{index}}" class="slide-image" mode="widthFix" bindload="imageLoad" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!-- 九宫格 -->
+<view class="girds-wrapper">
+<view class="girds-item" wx:for="{{menus}}" wx:key="id" >
+<image src="{{item.icon}}"></image>
+<text >{{item.name}}</text>
+</view>
+</view>
+<!-- 底部 -->
+<view class="links-wrapper"></view>

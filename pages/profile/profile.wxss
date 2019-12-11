@@ -1,0 +1,32 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+  font-size: 30px;
+  background-color: #666;
+  color: #666;
+  text-shadow: 1px 1px 1px #fff,-1px -1px 1px #000;
+}
+.my-input {
+  border: 1px solid #ccc;
+}
+page{
+  background-image: url('https://pic.qqtn.com/up/2017-7/2017070615385277399.jpg');
+background-size: 776rpx 1500rpx
+}
