@@ -10,10 +10,14 @@
 </view>
 <!-- 九宫格 -->
 <view class="girds-wrapper">
-<view class="girds-item" wx:for="{{menus}}" wx:key="id" >
+<!-- navigator会影响view的结构样式.(可直接替换view标签为navigator) -->
+<navigator url="/pages/list/list?id={{item.id}}" class="girds-item" wx:for="{{menus}}" wx:key="id" >
 <image src="{{item.icon}}"></image>
 <text >{{item.name}}</text>
-</view>
+</navigator>
 </view>
 <!-- 底部 -->
-<view class="links-wrapper"></view>
+<view class="links-wrapper">
+<image src="../../assets/links/link-01.png"></image>
+<image src="/assets/links/link-02.png"></image>
+</view>

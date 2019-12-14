@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc; 
-
+  background-color: #fff;
 }
 .girds-item{
   display: flex;
@@ -31,4 +31,16 @@
   margin-top: 20rpx;
   font-size: 26rpx;
   color: #888;
+}
+/* 底部链接样式 */
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  margin: 20rpx 0;
+  background-color: #fff;
+}
+.links-wrapper image {
+  width: 335rpx;
+  height: 186rpx;
 }
